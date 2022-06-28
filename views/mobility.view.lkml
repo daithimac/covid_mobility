@@ -332,7 +332,7 @@ view: mobility_data {
     ${residential_7_day_moving_avg}
     {% elsif  metric._parameter_value == 'parks' and daily_or_avg._parameter_value == 'mov_avg'  %}
     ${parks_7_day_moving_avg}
-    {% elsif  metric,_parameter_value == 'grocery' and daily_or_avg._parameter_value == 'mov_avg'  %}
+    {% elsif  metric._parameter_value == 'grocery' and daily_or_avg._parameter_value == 'mov_avg'  %}
     ${grocery_and_pharmacy_7_day_moving_avg}
     {% elsif  metric._parameter_value == 'transit' and daily_or_avg._parameter_value == 'mov_avg'  %}
     ${transit_stations_7_day_moving_avg}

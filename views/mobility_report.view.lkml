@@ -204,4 +204,9 @@ view: mobility_report {
     type: count
   }
 
+  measure: count_of_primary_regions {
+    type: count_distinct
+    sql: ${country_region} ;;
+  }
+
 }
